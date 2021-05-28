@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+.btn-primary {
+  background-image: -webkit-linear-gradient(top, #dd8f3e 0%, #cc7d48 100%);
+  background-image:      -o-linear-gradient(top, #dd8f3e 0%, #cc7d48 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#dd8f3e), to(#cc7d48));
+  background-image:         linear-gradient(to bottom, #dd8f3e 0%, #cc7d48 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff265a88', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-color: #cc7d48;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #dd8f3e;
+  background-position: 0 -15px;
+}
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #dd8f3e;
+  border-color: #cc7d48;
+}
+fieldset[disabled] .btn-primary.active {
+  background-color: #dd8f3e;
+  background-image: none;
+}
